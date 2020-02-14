@@ -128,9 +128,9 @@ exports.createPages = async ({ graphql, actions, reporter }, themeOptions) => {
     });
   });
 
-  // The index page
+  // The posts page
   actions.createPage({
-    path: "/",
+    path: "/posts",
     component: require.resolve(`./src/templates/posts.tsx`),
     context: {
       posts,

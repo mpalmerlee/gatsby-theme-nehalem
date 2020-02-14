@@ -40,7 +40,7 @@ const PageTemplate: FunctionComponent<PageTemplateProps> = ({pathContext, locati
   const page = pathContext.page;
 
   return (
-    <Layout bigHeader={false}>
+    <Layout bigHeader={true}>
       <SEO
         title={page.frontmatter.title}
         description={page.frontmatter.excerpt}
