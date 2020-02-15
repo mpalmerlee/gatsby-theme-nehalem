@@ -38,6 +38,7 @@ export const Title = styled.h1`
 
 export const Description = styled.h2`
   margin: 0;
+  color: #fff;
   opacity: .85;
 `;
 
